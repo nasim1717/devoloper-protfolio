@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 700px;
+    border: 0;
+    padding: 18px 35px;
+}
+
+.header{
+    background: #FFF8F3;
+    background-image: url("/images/header_bg.png"),url("/images/developer.png") ;
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+
+/* header and navigation styles */
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+
+/* Banner */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.banner-sub-tittle{
+  font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+.banner-tittle{
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 116px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.banner-description{
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* Main Section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About Section styles */
+.about{
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+.section-tittle{
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 30px;
+}
+
+.section-description{
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .info-tittle{
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+.about .info-description{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+
+    text-align: center;
+
+    /* Dark 02 */
+
+    color: #474747;
+}
