@@ -89,7 +89,7 @@ main{
 
 /* About Section styles */
 .about{
-  
+  color: red;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
